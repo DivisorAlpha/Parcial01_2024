@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="iniciarSesion.css">
+    <script src="iniciarSesion.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <p class="bienvenida" id="bienvenida" >
+            Bienvenido a nuestra Página
+        </p>
+    </header>
+    <nav>
+        <div class="contenedor-nav">
+            <p> <a href="productos.html">Productos</a></p>
+            <p> <a href="">link 1</a></p>
+            <p> <a href="">link 1</a></p>
+            <p> <a href="">link 1</a></p>
+        </div>
+        <div class="contenedor-nav-boton">
+            <button onclick="loadNewPage()">Inicio</button>
+            <button>Registrarse</button>
+        </div>
+    </nav>
+    <div class="contenedor-formulario">
+        <h2>Inicio de sesión</h2>
+        <form action="submit">
+            <input type="email" placeholder="Correo Electronico" id="email">
+            <br>
+            <input type="password" placeholder="Contraseña" id="password">
+            <br>
+            <div>
+                <button>Iniciar Sesión</button>
+            </div>
+            <p>Aun no me he registrado. <a href="registro.html">Registrarme</a></p>
+        </form>
+        <button onclick="loadNewPage()">Cancelar</button>
+
+    </div>
+</body>
+</html>

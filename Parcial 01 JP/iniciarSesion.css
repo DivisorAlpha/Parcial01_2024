@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #f3eeea;
+    font-size: 15px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+header{
+    background-color: #b0a695;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Estamos en LA BARRA DE NAVEGACIÓN */
+
+nav{
+    display: flex;
+    background-color: #b0a695;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.contenedor-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+nav div p{
+    background-color: #f3eeea;
+    border-radius: 4px;
+    transition: background-color 0.5s ;
+}
+nav div p a{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+nav div p a:hover{
+    color: white;
+}
+nav div p:hover{
+    background-color: rgb(0, 0, 5);
+}
+
+/* Los botones de LA BARRA DE NAVEGACIÓN */
+
+.contenedor-nav-boton{
+    width: 20%;
+}
+nav div button{
+    padding: 5px;
+    background-color: #ebe3d5;
+    color: black;
+    border-radius: 20px;
+    border: solid white 2px;
+    margin: 0px 10px;
+    transition: color 0.5s;
+    transition: background-color 0.5s ;
+}
+nav div button:hover{
+    background-color: black;
+    color: white;
+}
+/* formulario */
+.contenedor-formulario{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+
+}
+.contenedor-formulario h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contenedor-formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-formulario form input{
+    width: 30%;
+    height: 30px;
+}
+.contenedor-formulario form button{
+    padding: 10px;
+    background-color: #ebe3d5;
+    color: black;
+    border-radius: 20px;
+    border: solid white 2px;
+    margin: 0px 10px;
+    transition: color 0.5s;
+    transition: background-color 0.5s ;
+}
+.contenedor-formulario form button:hover{
+    background-color: black;
+    color: white;
+}
+.contenedor-formulario form p{
+    padding: 2px;
+    margin: 2px;
+}
+.contenedor-formulario form p a{
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.contenedor-formulario form p a:hover{
+color: blue;
+}
+button{
+    padding: 5px;
+    background-color: #ebe3d5;
+    color: black;
+    border-radius: 20px;
+    border: solid white 2px;
+    margin: 10px 48%;
+    transition: color 0.5s;
+    transition: background-color 0.5s ;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
